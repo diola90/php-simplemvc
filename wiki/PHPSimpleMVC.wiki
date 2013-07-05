@@ -10,14 +10,14 @@ Lightweight? It will even float in the air! This is as simple as coding pure PHP
 = Details =
 
 *Requirements*
-  *PHP5
-  *Knowledgeable on MVC pattern
-  *Subversion (used to checkout the files) http://tortoisesvn.net/downloads.html
+  * PHP5
+  * Knowledgeable on MVC pattern
+  * Subversion (used to checkout the files) http://tortoisesvn.net/downloads.html
 
 
 *Setup*
-  *Download http://php-simplemvc.googlecode.com/svn/trunk/
-  *Remove all the sample codes.
+  * Download http://php-simplemvc.googlecode.com/svn/trunk/
+  * Remove all the sample codes.
 
 *How to use*
 *1.* To create a controller just inherit Controller class.
@@ -40,7 +40,7 @@ class MyController extends Controller
 <input type="text" name="data" id="data" value="1">
 .
 .
-public MethodName($data)
+public MethodName ($data)
 {}
 
 *4.* Call Controller method PopulateRequest to where you post your data. If you post within the same page then put it there. If you post it to the control page then put it there.
@@ -49,7 +49,7 @@ public MethodName($data)
 $controller1 = new Sample2Controller();
 .
 .
-$controller1->PopulateRequest();
+$controller1->PopulateRequest ();
 
 *5.* You should put the files accordingly (View, Model and Controller)
 
