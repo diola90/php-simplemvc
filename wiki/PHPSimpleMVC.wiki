@@ -32,7 +32,7 @@ example
 .
 class MyController extends Controller
 {
-  public MethodName($data)
+  public MethodName ($data)
   {}
 }
 *3.* Parameters of the controller method should be the same name with the post data. 
