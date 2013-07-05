@@ -45,7 +45,7 @@ class MyController extends Controller
 public MethodName ($data)
 {}
 }}}
-<br />*4.* Call Controller method PopulateRequest to where you want to post your data. If you post within the same page, use it to display a view and expent a returned data, then put it there. If you post it to the controller page, you don't expect any return data, then put the PopulateRequest to the controller page.
+<br />*4.* Call Controller method PopulateRequest to where you want to post your data. If you post within the same page, use it to display a view and expent a returned data, then put it there Samplep[https://code.google.com/p/php-simplemvc/source/browse/trunk/View/Sample2.php] . If you post it to the controller page, you don't expect any return data, then put the PopulateRequest to the controller page.
 
 {{{
 $controller1 = new Sample2Controller();
