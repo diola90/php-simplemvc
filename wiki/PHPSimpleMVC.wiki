@@ -7,7 +7,6 @@ This is designed to be simple and straight forward coding in MVC pattern. It doe
 
 Lightweight? It will even float in the air! This is as simple as coding pure PHP.
 
-
 = Details =
 
 *Requirements*
