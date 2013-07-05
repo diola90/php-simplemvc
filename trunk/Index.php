@@ -1,5 +1,5 @@
 <?php
 
-header("Location: http://".$_SERVER['HTTP_HOST']."/SimpleMVC/View/Sample1.php");
+header("Location: http://".$_SERVER['HTTP_HOST']."/php-simplemvc/View/Sample1.php");
 
 ?>
