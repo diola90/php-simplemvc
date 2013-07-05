@@ -17,7 +17,7 @@ Lightweight? It will even float in the air! This is as simple as coding pure PHP
 
 *Setup*
   * Download http://php-simplemvc.googlecode.com/svn/trunk/
-  * Remove all the sample codes.
+  * Remove all the sample codes if you don't need it.
 
 *How to use*
 <br />*1.* To create a controller just inherit Controller class.
