@@ -21,9 +21,9 @@ Lightweight? It will even float in the air! This is as simple as coding pure PHP
 
 *How to use*
 <br />*1.* To create a controller just inherit Controller class.
-<br />*2.* To invoke controller methods there should be a Post key with postfix "*<notextile>_</notextile>action" or "action" (not a postfix). The value of that key will be the name of the method to be executed.
+<br />*2.* To invoke controller methods there should be a Post key with postfix "*_action" or "action" (not a postfix). The value of that key will be the name of the method to be executed.
 example 
-
+{{{
 <input type="text" name="data" id="data" value="1">
 
 <input type="submit" name="submit_action" id="submit_action" value="MethodName">
@@ -35,14 +35,16 @@ class MyController extends Controller
   public MethodName ($data)
   {}
 }
-<br />*3.* Parameters of the controller method should be the same name with the post data. 
 
+}}}
+<br />*3.* Parameters of the controller method should be the same name with the post data. 
+{{{
 <input type="text" name="data" id="data" value="1">
 .
 .
 public MethodName ($data)
 {}
-
+}}}
 <br />*4.* Call Controller method PopulateRequest to where you post your data. If you post within the same page then put it there. If you post it to the control page then put it there.
 
 
