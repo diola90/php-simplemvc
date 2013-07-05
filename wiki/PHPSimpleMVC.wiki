@@ -1,0 +1,15 @@
+#A very simple MVC programming pattern implementation on PHP
+
+= Introduction =
+
+This is designed to be simple and straight forward coding in MVC pattern. It doesn't require you to study loads of documentation. This framework will allow you to start coding immediately. 
+
+Lightweight? It will even float in the air! This is as simple as coding pure PHP.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
