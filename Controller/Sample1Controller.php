@@ -49,7 +49,7 @@ You can declare the controller within the controller itself or to the View.
 ***/
 $controller1 = new Sample1Controller();
 /***
-PopulateRequest will populate your request to invoke methods under HolidayController.
+PopulateRequest will populate your request to invoke methods under Sample1Controller.
 ***/
 $controller1->PopulateRequest();
 ?>
