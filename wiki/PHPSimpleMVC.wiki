@@ -21,7 +21,7 @@ Lightweight? It will even float in the air! This is as simple as coding pure PHP
 
 *How to use*
 <br />*1.* To create a controller just inherit Controller class.
-<br />*2.* To invoke controller methods there should be a Post key with postfix {{{"_action" or "action" (not a postfix)}}. The value of that key will be the name of the method to be executed.
+<br />*2.* To invoke controller methods there should be a Post key with postfix {{{"_action" or "action" (not a postfix) }}}. The value of that key will be the name of the method to be executed.
 example 
 {{{
 <input type="text" name="data" id="data" value="1">
