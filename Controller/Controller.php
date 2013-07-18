@@ -93,7 +93,7 @@ class Controller
 		
 		foreach($params as $key=>$param)
 		{
-				array_push($parameters,self::GetGlobalData($param->name,true));
+				array_push($parameters,htmlentities(self::GetGlobalData($param->name,true)));
 		}
 		
 		return $parameters;
